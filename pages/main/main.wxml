@@ -1,0 +1,53 @@
+<!--pages/main/main.wxml-->
+<!--顶部搜索框-->
+<view class="searchView">
+  <image class="logoImv" src=""></image>
+  <image class="searchImv" src=""></image>
+  <text class="searchText">请输入搜素内容</text>
+</view>
+<!--顶部banner图-->
+<swiper class="bannerView" 
+indicator-dots="{{true}}" 
+indicator-color="#afafaf" 
+indicator-active-color="#ffffff"
+autoplay="{{true}}" circular="{{true}}">
+  <block wx:for="{{5}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src=""></image>
+    </swiper-item>
+  </block>
+</swiper>
+<!--类别item-->
+<swiper class="itemView" indicator-dots="{{true}}"
+indicator-color="#afafaf"
+indicator-active-color="#e6e6e6"
+circular="{{true}}">
+<swiper-item>
+    <block wx:for="{{10}}" wx:key="{{index}}">
+      <view class="item">
+        <image class="iconView" src=""></image>
+        <view class="titleView">标题</view>
+      </view>
+    </block>
+  </swiper-item>
+  <swiper-item>
+    <block wx:for="{{10}}" wx:key="{{index}}">
+      <view class="item">
+        <image class="iconView" src=""></image>
+        <view class="titleView">标题></view>
+      </view>
+    </block>
+  </swiper-item>
+</swiper>
+<!--猜你喜欢-->
+<view class="cnxhTitle">猜你喜欢</view>
+<!--猜你喜欢内容-->
+<block wx:for="{{10}}" wx:key="{{index}}">
+  <view class="detailView">
+    <image class="detailImv" src=""></image>
+    <text class="detailTxt">商品标题</text>
+    <text class="priceTxt">￥999</text>
+  </view>
+</block>
+
+<button bindtap="jumoToEcharts">跳转</button>

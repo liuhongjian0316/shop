@@ -1,0 +1,32 @@
+<!--pages/class/class.wxml-->
+<!-- 顶部搜索栏  -->
+<view class="searchHead">
+  <view class="searchView">
+    <image src=""></image>
+    <text>搜素商户名称</text>
+  </view>
+</view>
+<!-- 底部分类 -->
+<!-- 分类左侧标签 -->
+<scroll-view class="leftTitle" scroll-y>
+  <block wx:for="{{20}}" wx:key="{{index}}">
+    <view class='titleView{{index==0 ? "selectTitleView" : ""}}' data-index="{{index}}"
+    bindtap="titleViewClick">大类标题</view>
+  </block>
+</scroll-view>
+<!-- 分类右侧展示 -->
+<scroll-view class="rightDetail" scroll-y>
+  <!-- 顶部图片 -->
+  <image src="" class="topImv" wx:if="{{true}}"></image>
+  <block wx:if="{{5}}" wx:key="{{index}}">
+    <!-- 内容标题  -->
+    <view class="titView">子标签标题</view>
+    <!-- 标题内内容 -->
+    <block wx:for="{{6}}" wx:for-item="{{itemName}}" wx:for-index="indexName" wx:key="{{indexName}}">
+      <view class="itemView">
+        <image src="" class="icon"></image>
+        <view class="detail">标题</view>
+      </view>
+    </block>
+  </block>
+</scroll-view>

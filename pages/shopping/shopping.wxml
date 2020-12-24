@@ -1,0 +1,17 @@
+<!--pages/shopping/shopping.wxml-->
+<scroll-view class="contentView" scroll-y>
+  <block v-for="{{3}}" wx:key="{{index}}">
+    <!-- 标题内容 -->
+    <view class="titleView">
+      <image class="titleView" src="" data-item="{{index}}"></image>
+      <text class="shopName">商铺名称</text>
+    </view>
+    <!-- 商铺选中的商品 -->
+    <block wx:for="{{2}}" wx:for-item="subItem" wx:for-index="subIndex" wx:key="subIndex">
+      <!-- 单个商品样式 -->
+  
+
+    </block>
+  </block>
+
+</scroll-view>

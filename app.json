@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/class/class",
+    "pages/shopping/shopping",
+    "pages/login/nameLogin/nameLogin",
+    "pages/login/phoneRegist/phoneRegist",
+    "pages/login/smsLogin/smsLogin",
+    "pages/echarts/echarts"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#313030",
+    "selectedColor": "#D54331",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/class/class",
+        "text": "分类",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "购物车",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/login/nameLogin/nameLogin",
+        "text": "我的",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap54.json"
+}

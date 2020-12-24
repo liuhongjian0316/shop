@@ -1,0 +1,102 @@
+/* pages/class/class.wxss */
+/* 顶部搜索框 */
+.searchHead{
+  background-color: #ffffff;
+  width: 100%;
+  height: 110rpx;
+  border-top: 1px solid 1px;
+  position: relative;
+}
+.searchHead .searchView{
+  background-color: #F2F2F2;  
+  position: absolute;
+  left: 40rpx;
+  right: 40rpx;
+  top:20rpx;
+  height: 70rpx;
+  border-radius: 40rpx;
+  /* 让内部元素居中对齐 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 设置内部文字样式 */
+  font-size: 28rpx;
+  color: #999999;
+}
+.searchHead .searchView image{
+  width: 40rpx;
+  height: 40rpx;
+  margin: 0 10px;
+}
+/* 底部分类 */
+/* 分类左侧标签 */
+.leftTitle{
+  display: inline-block;
+  width: 30%;
+  height: 996rpx;
+  background: #F2F2F2;
+}
+/* 未选中样式 */
+.leftTitle .titleView{
+  width: 100%;
+  /* 文字居中对其 */
+  text-align: center;
+  line-height: 100rpx;
+  /* 字体样式设计 */
+  font-size: 24rpx;
+  color: #000000;
+}
+/* 选中样式 */
+.leftTitle .selectTitleView{
+  font-size: 28rpx;
+  color: #9D2A37;
+  background-color: #ffffff;
+}
+/* 分类右侧展示 */
+.rightDetail{
+  display: inline-block;
+  width: 70%;
+  height: 996rpx;
+  background-color: #ffffff;
+}
+/* 顶部图片 */
+.rightDetail .topImv{
+  width: 480rpx;
+  height: 200rpx;
+  padding: 20rpx;
+  background-color: red;
+}
+/* 内容标题 */
+.rightDetail .titView{
+  width: 100%;
+  line-height: 60rpx;
+  padding-left: 20rpx;
+  /* 设置字体样式 */
+  color: #000000;
+  font-size: 28rpx;
+  font-weight: bolder;
+  /* background-color: yellow; */
+}
+/* 单个元素 */
+.rightDetail .itemView{
+  display: inline-block;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+  width: 148rpx;
+  height: 200rpx;
+  background-color: green;
+}
+.rightDetail .rightView .icon{
+  width: 100%;
+  height: 148rpx;
+  background-color: blue;
+}
+.rightDetail .itemView .detail{
+  width: 100%;
+  /* 文字居中 */
+  line-height: 46rpx;
+  text-align: center;
+  /* 文字样式 */
+  color: #000000;
+  font-size: 24rpx;
+}

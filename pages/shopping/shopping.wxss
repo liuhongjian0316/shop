@@ -1,0 +1,32 @@
+/* pages/shopping/shopping.wxss */
+page{
+  height: 100%;
+}
+.main{
+  width: 100%;
+  height: 100%;
+  background-color: cadetblue;
+}
+.main .lit_txt{
+  margin-left: 5%;
+  font-size: 12px;
+  font-weight: 100;
+  color: #fff;
+}
+.main .big_txt{
+  margin-left: 5%;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}
+.charts{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 80rpx;
+  background-color: #fff;
+}

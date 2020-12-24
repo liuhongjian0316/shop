@@ -1,0 +1,46 @@
+/* pages/echarts/echarts.wxss */
+/* pages/shopping/shopping.wxss */
+page{
+  height: 100%;
+}
+.main{
+  width: 100%;
+  height: 100%;
+  background-color: cadetblue;
+}
+.main .top{
+  height: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main .top text{
+  position: relative;
+  bottom: 35px;
+  font-size: 8px;
+}
+.main .top .lit_txt{
+  margin-left: 8%;
+  font-size: 10px;
+  font-weight: 100;
+  color: #fff;
+}
+.main .big_txt{
+  margin-left: 8%;
+  font-size: 50px;
+  font-weight: 300;
+  color: #fff;
+}
+.charts{
+  padding: 0px;
+  width: 90%;
+  margin-left: 5%;
+  height: 50%;
+  background: #fff;
+  border-radius: 10rpx;
+  box-shadow: 5px 5px 5px #cdcfcf;
+}
+.charts button{
+  box-shadow: 5px 5px 5px #cdcfcf;
+}
