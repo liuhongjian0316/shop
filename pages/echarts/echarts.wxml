@@ -9,7 +9,7 @@
     </view>
     <view class="charts">
       <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
-      <button>历史记录</button>
+      <button bindtap="jumpToDetail">历史记录</button>
     </view>
   </view>
 </scroll-view>

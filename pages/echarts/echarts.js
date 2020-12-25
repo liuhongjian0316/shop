@@ -77,6 +77,16 @@ Page({
     }
   },
 
+  jumpToDetail:function(events){
+    wx.navigateTo({
+      url: '/pages/historyDetail/historyDetail',
+      events: events,
+      success: (result) => {},
+      fail: (res) => {},
+      complete: (res) => {},
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

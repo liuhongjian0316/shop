@@ -6,7 +6,8 @@
     "pages/login/nameLogin/nameLogin",
     "pages/login/phoneRegist/phoneRegist",
     "pages/login/smsLogin/smsLogin",
-    "pages/echarts/echarts"
+    "pages/echarts/echarts",
+    "pages/historyDetail/historyDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,27 +22,21 @@
     "list": [
       {
         "pagePath": "pages/main/main",
-        "text": "首页",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "首页"
       },
       {
         "pagePath": "pages/class/class",
-        "text": "分类",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "分类"
+
       },
       {
         "pagePath": "pages/shopping/shopping",
-        "text": "购物车",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "购物车"
       },
       {
         "pagePath": "pages/login/nameLogin/nameLogin",
-        "text": "我的",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "我的"
+
       }
     ]
   },
